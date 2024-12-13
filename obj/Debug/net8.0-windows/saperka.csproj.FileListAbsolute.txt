@@ -1,0 +1,76 @@
+C:\Users\mazura\RiderProjects\saperka\bin\Debug\net8.0-windows\saperka.exe
+C:\Users\mazura\RiderProjects\saperka\bin\Debug\net8.0-windows\saperka.deps.json
+C:\Users\mazura\RiderProjects\saperka\bin\Debug\net8.0-windows\saperka.runtimeconfig.json
+C:\Users\mazura\RiderProjects\saperka\bin\Debug\net8.0-windows\saperka.dll
+C:\Users\mazura\RiderProjects\saperka\bin\Debug\net8.0-windows\saperka.pdb
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\saperka_MarkupCompile.cache
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\saperka_MarkupCompile.lref
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\saperka.g.resources
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\saperka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\saperka.AssemblyInfoInputs.cache
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\saperka.AssemblyInfo.cs
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\saperka.csproj.CoreCompileInputs.cache
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\saperka.dll
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\refint\saperka.dll
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\saperka.pdb
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\saperka.genruntimeconfig.cache
+C:\Users\mazura\RiderProjects\saperka\obj\Debug\net8.0-windows\ref\saperka.dll
+D:\Klasa 3\PM7\saperka\bin\Debug\net8.0-windows\saperka.exe
+D:\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\App.g.cs
+D:\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka_MarkupCompile.cache
+D:\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka_MarkupCompile.lref
+D:\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.g.resources
+D:\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.GeneratedMSBuildEditorConfig.editorconfig
+D:\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.AssemblyInfoInputs.cache
+D:\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.AssemblyInfo.cs
+D:\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.csproj.CoreCompileInputs.cache
+D:\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.dll
+D:\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\refint\saperka.dll
+D:\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.pdb
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\bin\Debug\net8.0-windows\saperka.exe
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\bin\Debug\net8.0-windows\saperka.deps.json
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\bin\Debug\net8.0-windows\saperka.runtimeconfig.json
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\bin\Debug\net8.0-windows\saperka.dll
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\bin\Debug\net8.0-windows\saperka.pdb
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka_MarkupCompile.cache
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka_MarkupCompile.lref
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.g.resources
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.AssemblyInfoInputs.cache
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.AssemblyInfo.cs
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.csproj.CoreCompileInputs.cache
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.dll
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\refint\saperka.dll
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.pdb
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\saperka.genruntimeconfig.cache
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\ref\saperka.dll
+C:\Users\akm12\Documents\Szkola\Medium\Klasa 3\PM7\saperka\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\mazura\source\repos\saperka\bin\Debug\net8.0-windows\saperka.exe
+C:\Users\mazura\source\repos\saperka\bin\Debug\net8.0-windows\saperka.deps.json
+C:\Users\mazura\source\repos\saperka\bin\Debug\net8.0-windows\saperka.runtimeconfig.json
+C:\Users\mazura\source\repos\saperka\bin\Debug\net8.0-windows\saperka.dll
+C:\Users\mazura\source\repos\saperka\bin\Debug\net8.0-windows\saperka.pdb
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\saperka_MarkupCompile.cache
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\saperka_MarkupCompile.lref
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\saperka.g.resources
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\saperka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\saperka.AssemblyInfoInputs.cache
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\saperka.AssemblyInfo.cs
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\saperka.csproj.CoreCompileInputs.cache
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\saperka.dll
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\refint\saperka.dll
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\saperka.pdb
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\saperka.genruntimeconfig.cache
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\ref\saperka.dll

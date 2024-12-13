@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\akm12\\Documents\\Szkola\\Medium\\Klasa 3\\PM7\\saperka\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3DA513-EE31-4811-B1B0-4218EE9DF60A}|saperka.csproj|c:\\users\\akm12\\documents\\szkola\\medium\\klasa 3\\pm7\\saperka\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3DA513-EE31-4811-B1B0-4218EE9DF60A}|saperka.csproj|solutionrelative:field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3DA513-EE31-4811-B1B0-4218EE9DF60A}|saperka.csproj|c:\\users\\akm12\\documents\\szkola\\medium\\klasa 3\\pm7\\saperka\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3DA513-EE31-4811-B1B0-4218EE9DF60A}|saperka.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3DA513-EE31-4811-B1B0-4218EE9DF60A}|saperka.csproj|c:\\users\\akm12\\documents\\szkola\\medium\\klasa 3\\pm7\\saperka\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8B3DA513-EE31-4811-B1B0-4218EE9DF60A}|saperka.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\akm12\\Documents\\Szkola\\Medium\\Klasa 3\\PM7\\saperka\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\akm12\\Documents\\Szkola\\Medium\\Klasa 3\\PM7\\saperka\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T20:35:17.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\akm12\\Documents\\Szkola\\Medium\\Klasa 3\\PM7\\saperka\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\akm12\\Documents\\Szkola\\Medium\\Klasa 3\\PM7\\saperka\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-15T20:35:14.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Field.cs",
+              "DocumentMoniker": "C:\\Users\\akm12\\Documents\\Szkola\\Medium\\Klasa 3\\PM7\\saperka\\Field.cs",
+              "RelativeDocumentMoniker": "Field.cs",
+              "ToolTip": "C:\\Users\\akm12\\Documents\\Szkola\\Medium\\Klasa 3\\PM7\\saperka\\Field.cs",
+              "RelativeToolTip": "Field.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswDQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T20:35:00.383Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
