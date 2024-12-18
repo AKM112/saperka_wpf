@@ -10,29 +10,44 @@
     <Window.Resources>
         <!-- Styl przycisku -->
         <Style TargetType="{x:Type local:Field}">
-            <Setter Property="Foreground" Value="DarkGreen"/>
-            <Setter Property="Background" Value="LightYellow"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Background" Value="Coral"/>
             <Setter Property="FontSize" Value="16"/>
-            <Style.Triggers>
-                <Trigger Property="Content" Value="0">
-                    
-                </Trigger>
-            </Style.Triggers>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="{x:Type local:Field}">
-                        <Border Background="{TemplateBinding Background}" BorderBrush="Gray" BorderThickness="1">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="LightGreen"/>
+                                <Setter Property="Background" Value="Brown"/>
                                 <Setter Property="Foreground" Value="Black"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
+            <Style.Triggers>
+                <Trigger Property="Content" Value="">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type local:Field}">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="Chartreuse"/>
+                                        <Setter Property="Foreground" Value="Black"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Background" Value="ForestGreen"/>
+                </Trigger>
+            </Style.Triggers>
         </Style>
     </Window.Resources>
 

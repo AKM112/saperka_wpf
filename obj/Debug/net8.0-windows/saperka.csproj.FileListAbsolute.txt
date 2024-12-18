@@ -74,3 +74,4 @@ C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\refint\saperka.dll
 C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\saperka.pdb
 C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\saperka.genruntimeconfig.cache
 C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\ref\saperka.dll
+C:\Users\mazura\source\repos\saperka\obj\Debug\net8.0-windows\saperka.sourcelink.json
