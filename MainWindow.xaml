@@ -5,49 +5,76 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:saperka"
         mc:Ignorable="d"
-        Title="MainWindow" Height="840" Width="800">
+        Title="MainWindow" Height="840" Width="800"
+        >
 
     <Window.Resources>
         <!-- Styl przycisku -->
         <Style TargetType="{x:Type local:Field}">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Brown"/>
+                    <Setter Property="Foreground" Value="Black"/>
+                </Trigger>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="Content" Value=""/>
+                        <Condition Property="IsMouseOver" Value="True"></Condition>
+                    </MultiTrigger.Conditions>
+                    <Setter Property="Background" Value="GreenYellow"/>
+                </MultiTrigger>
+                <Trigger Property="Content" Value="">
+                    <Setter Property="Background" Value="ForestGreen"/>
+                </Trigger>
+                <Trigger Property="Content" Value="1">
+                    <Setter Property="Background" Value="Aqua"/>
+                </Trigger>
+                <Trigger Property="Content" Value="2">
+                    <Setter Property="Background" Value="Aquamarine"/>
+                </Trigger>
+                <Trigger Property="Content" Value="3">
+                    <Setter Property="Background" Value="AliceBlue"/>
+                </Trigger>
+                <Trigger Property="Content" Value="4">
+                    <Setter Property="Background" Value="CornflowerBlue"/>
+                </Trigger>
+                <Trigger Property="Content" Value="5">
+                    <Setter Property="Background" Value="DodgerBlue"/>
+                </Trigger>
+                <Trigger Property="Content" Value="6">
+                    <Setter Property="Background" Value="MediumBlue"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+                <Trigger Property="Content" Value="7">
+                    <Setter Property="Background" Value="MediumBlue"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+                <Trigger Property="Content" Value="8">
+                    <Setter Property="Background" Value="DarkViolet"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+                <Trigger Property="Content" Value="💣">
+                    <Setter Property="Background" Value="Red"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+                <Trigger Property="Content" Value="🚩">
+                    <Setter Property="Background" Value="LimeGreen"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
             <Setter Property="Foreground" Value="Black"/>
             <Setter Property="Background" Value="Coral"/>
             <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="{x:Type local:Field}">
                         <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="Brown"/>
-                                <Setter Property="Foreground" Value="Black"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
-            <Style.Triggers>
-                <Trigger Property="Content" Value="">
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="{x:Type local:Field}">
-                                <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
-                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                </Border>
-                                <ControlTemplate.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="Chartreuse"/>
-                                        <Setter Property="Foreground" Value="Black"/>
-                                    </Trigger>
-                                </ControlTemplate.Triggers>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                    <Setter Property="Background" Value="ForestGreen"/>
-                </Trigger>
-            </Style.Triggers>
         </Style>
     </Window.Resources>
 
@@ -55,12 +82,16 @@
         <Grid DockPanel.Dock="Top" Height="20">
             <Button Content="Kliknij mnie" Width="100" Height="20"
                 BorderBrush="Black" BorderThickness="1" Foreground="Black"/>
+            <TextBlock x:Name="FlagCounter">Pozostałe falgi: </TextBlock>
         </Grid>
         <UniformGrid x:Name="SaperField"
                      DockPanel.Dock="Bottom"
                      Width="700"
                      Height="700"
+                     Columns="20"
+                     Rows="20"
                      >
         </UniformGrid>
     </DockPanel>
 </Window>
+ 

@@ -1,6 +1,8 @@
-﻿using System.Windows;
+﻿using System.Runtime.CompilerServices;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
+using System.Windows.Input;
 
 namespace saperka;
 
@@ -12,29 +14,62 @@ public class Field : Button
     public static int width;
     public static int height;
     public static List<Field> FieldsWithFlag = new List<Field>();
+    public static int flagCount = 0;
+    private static Action<int> OnFlagChanged;
     public int Value { get; set; }
-
-    public static void Setup()
+    
+    public static void Setup(Action<int> onFlagChanged, int bombCount)
     {
+        BombCount = bombCount;
+        OnFlagChanged = onFlagChanged;
+        flagCount = 0;
         Fields.ForEach(x =>
         {
             x.Click += FistClick;
             x.Click -= odwroc;
+            x.MouseRightButtonDown += RightClick;
         });
         
     }
+
+    private static void RightClick(object sender, MouseButtonEventArgs e)
+    {
+        Field thisField = sender as Field;
+
+        if (thisField.Content == "🚩")
+        {
+            thisField.Content = "";
+            Field.flagCount--;
+            if(Field.OnFlagChanged != null)
+            Field.OnFlagChanged(flagCount);
+        }
+        else if (thisField.Content == "" && Field.flagCount < Field.BombCount)
+        {
+            thisField.Content = "🚩";
+            Field.flagCount++;
+            if(Field.OnFlagChanged != null)
+                Field.OnFlagChanged(flagCount);
+        }else if(Field.flagCount == Field.BombCount)
+        {
+            MessageBox.Show("Nie możesz oznaczyć więcej bomb niż ich jest!");
+        }
+    }
+
     public static void FistClick(object sender, RoutedEventArgs e)
     {
         Field field = (Field)sender;
-        Field.Fields.ForEach(x =>
+        if (field.Content == "")
         {
-            x.Click -= FistClick;
-            x.Click += Field.odwroc;
-        });
-        int thisId = Field.Fields.IndexOf(field);
-        setBombs(20, thisId);
-        updateBombs();
-        odwroc(sender, e);
+            Field.Fields.ForEach(x =>
+            {
+                x.Click -= FistClick;
+                x.Click += Field.odwroc;
+            });
+            int thisId = Field.Fields.IndexOf(field);
+            setBombs(BombCount, thisId);
+            updateBombs();
+            odwroc(sender, e);   
+        }
     }
     public static Field? getFieldAtPos(int x, int y)
     {
@@ -63,7 +98,12 @@ public class Field : Button
     public static void odwroc(object sender, RoutedEventArgs e)
     {
         Field field = (Field)sender;
-        if (field.Value == 10)
+        
+        if (field.Content == "🚩")
+        {
+            
+        }
+        else if (field.Value == 10)
         {
             MessageBoxButton retryTheSameBoard = MessageBoxButton.YesNo;
             showAllBombs();
@@ -78,6 +118,7 @@ public class Field : Button
                     MainWindow.newGame((MainWindow)Application.Current.MainWindow);
                     break;
             }
+
         }
         else
         {
@@ -94,8 +135,9 @@ public class Field : Button
                 field.Content = field.Value.ToString();
             }
 
-            int ileZostalo = ileZostaloZakrytych();
-            if (ileZostalo == Bombs.Count)
+            int ileJestGit = ileZostaloZakrytych();
+            int ileOflagowanychMaBombe = ileMaBombe();
+            if (ileJestGit == Bombs.Count || ileOflagowanychMaBombe == Bombs.Count)
             {
                 MessageBox.Show("Wygrałeś!", "Wygrana!", MessageBoxButton.OK, MessageBoxImage.Information);
                 MainWindow.newGame((MainWindow)Application.Current.MainWindow);
@@ -103,12 +145,17 @@ public class Field : Button
         }
     }
 
+    private static int ileMaBombe()
+    {
+        return Fields.Count(x => x.Content.ToString() == "🚩" && x.Value == 10);
+    }
+
     private static int ileZostaloZakrytych()
     {
         int puste = 0;
         Fields.ForEach(x =>
         {
-            if (x.Content == "" || x.Content == null)
+            if (x.Content == "" || x.Content == null || x.Content == "🚩")
             {
                 puste += 1;
             }
@@ -148,6 +195,9 @@ public class Field : Button
             x=> x.Content=x.Value.ToString());
         Bombs.ForEach(x =>
         {
+            if(x.Content.ToString() == "🚩")
+                x.Content = "🏳️";
+            else
             x.Content = "💣";
         });
     }
@@ -188,7 +238,7 @@ public class Field : Button
             freeSpace.Remove(id);
         }
     }
-    // 10 - bomba
+    // 9 - bomba
     // 0 - puste pole
 
     public static void updateBombs()

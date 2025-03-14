@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Diagnostics;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -18,9 +19,11 @@ public partial class MainWindow : Window
 {
     private List<Field> fields = new List<Field>();
     // public static List<Button> 
+    static MainWindow theInstance;
     public MainWindow()
     {
         InitializeComponent();
+        theInstance = this;
         newGame(this);
     }
 
@@ -42,6 +45,13 @@ public partial class MainWindow : Window
                 field.Content = "";
                 instance.SaperField.Children.Add(field);
             }
-        Field.Setup();
+        Field.Setup(OnFlagChanged, 50);
+        OnFlagChanged(0);
+    }
+
+    private static void OnFlagChanged(int obj)
+    {
+        if(theInstance != null)
+        theInstance.FlagCounter.Text = "Pozostałe flagi/bomby: " +( Field.BombCount - obj);
     }
 }
